@@ -29,7 +29,7 @@ print(df1)
 print("-------------------------------------")
 print(df2)
 print()
-mer=pd.concat([df1,df2])
+mer=pd.concat([df1,df2],axis=0)
 print("Join the said two dataframes along rows:")
 print(mer)
 ```
